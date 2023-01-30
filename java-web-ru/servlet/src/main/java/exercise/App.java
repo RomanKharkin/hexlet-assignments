@@ -28,8 +28,8 @@ public class App {
         // BEGIN
         // Регистрируем сервлет
         app.addServlet(ctx, "WelcomeServlet", new WelcomeServlet());
-        // Назначаем сервлет как обработчик запросов по пути "/hello"
-        // На примере хоста и порта выше - "http://localhost:8080/hello"
+        // Назначаем сервлет как обработчик запросов по пути "/"
+        // На примере хоста и порта выше - "http://localhost:8080/"
         ctx.addServletMappingDecoded("/", "WelcomeServlet");
         // END
 
