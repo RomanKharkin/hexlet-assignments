@@ -63,7 +63,7 @@ class AppTest {
 
         assertThat(response.getCode()).isEqualTo(200);
         assertThat(content).contains("Tiger! Tiger!");
-        assertThat(content).contains("In Dubious Battlqe");
+        assertThat(content).contains("In Dubious Battle");
         assertThat(content).doesNotContain("A Monstrous Regiment of Women");
 
         HttpGet request2 = new HttpGet(baseUrl + "/articles?page=2");

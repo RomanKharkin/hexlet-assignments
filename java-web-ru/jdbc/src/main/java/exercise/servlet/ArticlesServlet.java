@@ -73,7 +73,7 @@ public class ArticlesServlet extends HttpServlet {
         Integer offset = (page - 1) * limit;
 
         // Запрос для получения данных компании. Вместо знака ? будут подставлены определенные значения
-        String query = "SELECT id, title, body FROM articles LIMIT ? OFFSET ? ";
+        String query = "SELECT id, title, body FROM articles ORDER BY id ASC LIMIT ? OFFSET ?";
 
         try {
             // Используем PreparedStatement
