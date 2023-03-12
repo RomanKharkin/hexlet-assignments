@@ -1,0 +1,111 @@
+2023-03-10 05:08:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:08:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:09:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:12:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:13:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:15:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-10 05:16:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? [42102-200]
+2023-03-12 12:34:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT 10 OFFSET ? [42102-200]
+2023-03-12 12:34:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT 10 OFFSET ? [42102-200]
+2023-03-12 12:34:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT 10 OFFSET ? [42102-200]
+2023-03-12 12:34:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT 10 OFFSET ? [42102-200]
+2023-03-12 12:37:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 12:37:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 12:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 12:38:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 12:39:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 12:40:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "COMPANIES" не найдена
+Table "COMPANIES" not found; SQL statement:
+SELECT id, title, body FROM companies LIMIT ? OFFSET ? [42102-200]
+2023-03-12 13:18:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:18:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:21:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:22:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:24:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:25:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:27:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:27:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:28:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-200]
+2023-03-12 13:44:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID DESC"
+Syntax error in SQL statement "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID DESC"; SQL statement:
+SELECT id, title, body FROM articles LIMIT ? OFFSET ? ORDER BY id DESC [42000-200]
+2023-03-12 13:44:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID DESC"
+Syntax error in SQL statement "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID DESC"; SQL statement:
+SELECT id, title, body FROM articles LIMIT ? OFFSET ? ORDER BY id DESC [42000-200]
+2023-03-12 13:45:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID"
+Syntax error in SQL statement "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY ID"; SQL statement:
+SELECT id, title, body FROM articles LIMIT ? OFFSET ? ORDER BY id [42000-200]
+2023-03-12 13:46:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY 'id'"
+Syntax error in SQL statement "SELECT ID, TITLE, BODY FROM ARTICLES LIMIT ? OFFSET ? ORDER[*] BY 'id'"; SQL statement:
+SELECT id, title, body FROM articles LIMIT ? OFFSET ? ORDER BY 'id' [42000-200]
