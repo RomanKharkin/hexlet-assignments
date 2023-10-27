@@ -7,35 +7,35 @@ import org.springframework.http.HttpStatus;
 
 import java.util.List;
 import java.util.Optional;
-
+import org.springframework.web.bind.annotation.RequestMapping;
 import exercise.model.Person;
 
 @RestController
-//@RequestMapping("/people")
+@RequestMapping("/people")
 public class PeopleController {
 
     @Autowired
     private PersonRepository personRepository;
 
-    @GetMapping(path = "/people/{id}")
+    @GetMapping(path = "/{id}")
     public Person show(@PathVariable long id) {
         return personRepository.findById(id).get();
     }
 
     // BEGIN
-    @GetMapping("/people")
+    @GetMapping(path = "")
     public List<Person> index() {
         return personRepository.findAll();
     }
 
-    @PostMapping("/people")
+    @PostMapping(path = "")
     @ResponseStatus(HttpStatus.CREATED)
     Person create(@RequestBody Person person) {
         personRepository.save(person);
         return person;
     }
 
-    @DeleteMapping("/people/{id}")
+    @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public void destroy(@PathVariable Long id) {
         personRepository.deleteById(id);
