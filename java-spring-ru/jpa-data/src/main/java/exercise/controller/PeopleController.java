@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import exercise.model.Person;
 
 @RestController
-@RequestMapping("/people")
+@RequestMapping("/people")  //Не была импортирована
 public class PeopleController {
 
     @Autowired
