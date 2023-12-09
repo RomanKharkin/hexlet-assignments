@@ -91,8 +91,10 @@ public class ProductsController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ResponseStatus(HttpStatus.OK)
     void delete(@PathVariable Long id) {
+        var task = productRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Not Found"));
         productRepository.deleteById(id);
     }
     // END

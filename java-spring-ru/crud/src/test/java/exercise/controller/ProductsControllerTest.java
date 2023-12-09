@@ -175,6 +175,7 @@ class ProductsControllerTest {
         assertThat(task.getCategory().getId()).isEqualTo(dto.get("categoryId"));
     }
 
+    @Test
     public void testDestroy() throws Exception {
         productRepository.save(testProduct);
         var request = delete("/products/{id}", testProduct.getId());
